@@ -131,10 +131,10 @@ STATIC_URL = '/site_gula/static/'
 
 #STATIC_ROOT = normpath(join(BASE_DIR, 'static'))
 
-STATICFILES_FINDERS = (
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    #'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-)
+# STATICFILES_FINDERS = (
+#     'django.contrib.staticfiles.finders.FileSystemFinder',
+#     #'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+# )
 
 STATICFILES_DIRS = (
   normpath(join(BASE_DIR, 'site_gula/static/')),
