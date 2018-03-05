@@ -11,10 +11,5 @@ handler500 = 'views.my_custom_error_view'
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-  
     url(r'^graficos$', views.graficos, name='graficos'),
-    url(r'^registro_coletas$', views.registro_coletas, name='registro_coletas'),
-
-    url(r'^teste', views.teste, name='teste'),
-
 ]
