@@ -136,6 +136,6 @@ STATIC_URL = '/site_gula/static/'
 #     #'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 # )
 
-STATICFILES_DIRS = (
-  normpath(join(BASE_DIR, 'site_gula/static/')),
-)
+#STATICFILES_DIRS = (
+#  normpath(join(BASE_DIR, 'site_gula/static/')),
+#)
