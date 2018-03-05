@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'site_gula.apps.SiteGulaConfig',
-    'site_gula',
 ]
 
 MIDDLEWARE = [
