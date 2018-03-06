@@ -27,7 +27,7 @@ SECRET_KEY = '72rdpq42@m=(2u-tq(-p48qatw9-6#9^7#$$3zsye(od0dn$t&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['173.230.150.95', 'benditagulagourmet.com.br', 'www.benditagulagourmet.com.br']
+ALLOWED_HOSTS = ['173.230.150.95', 'benditagulagourmet.com.br', 'www.benditagulagourmet.com.br', '127.0.0.1']
 
 
 # Application definition
@@ -80,8 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'banco',
-        'USER': 'bussola',
-        'PASSWORD': 'fuvest',
+        'USER': 'postgres',
+        'PASSWORD': 'senha123',
         'HOST': 'localhost',
         'PORT': '',
     }
